@@ -40,7 +40,7 @@
       <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
           <h1 class="text-light">
-            <h1 class="text-light"><a href="index.html"><span>Bapenda Situbondo</span></a></h1>
+            <h1 class="text-light"><a href="index.html"><span>BAPENDA Situbondo</span></a></h1>
             <!-- "{{asset('public/onepage/assets/img/logoBppkad.png')}}" -->
           </h1>
         </div>
@@ -66,13 +66,13 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h3>Selamat datang di</h3>
           <h1>
-            Website Bapenda<br />
+            Website BAPENDA<br />
             Kabupaten Situbondo
           </h1>
 
-          <button class="submit2" href="#portfolio">
+          <!-- <button class="submit2" href="#portfolio">
             Pilih Aplikasi
-          </button>
+          </button> -->
 
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -172,7 +172,7 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>Aplikasi Pajak </h2>
+      <h2>Aplikasi Pajak</h2>
       <!-- <p>Check out our beautifull portfolio</p> -->
     </div>
 <!-- 
@@ -191,48 +191,50 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <h2>Aplikasi Pajak </h2>
+              <h2>Pajak Bumi dan Bangunan P-2</h2>
               <img src="{{asset('public/onepage/assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="{{asset('public/onepage/assets/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
               </div>
-              <div class="portfolio-info">
+              <!-- <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
-              </div>
+              </div> -->
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
+              <h2>Bea Perolehan Hak Atas Tanah dan Bangunan</h2>
               <img src="{{asset('public/onepage/assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="{{asset('public/onepage/assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
               </div>
-              <div class="portfolio-info">
+              <!-- <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
-              </div>
+              </div> -->
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
+              <h2>Pajak Daerah dan Retribusi Daerah</h2>
               <img src="{{asset('public/onepage/assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="{{asset('public/onepage/assets/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
               </div>
-              <div class="portfolio-info">
+              <!-- <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
-              </div>
+              </div> -->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{{asset('public/onepage/assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -314,7 +316,7 @@
                 <p>Web</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -380,7 +382,7 @@
                 <h4>Telp. :</h4>
                 <p></p>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15815.065348632841!2d114.001605!3d-7.7082043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x278e73cbc305ac69!2sBapenda%20KABUPATEN%20SITUBONDO!5e0!3m2!1sid!2ssg!4v1634538189008!5m2!1sid!2ssg" frameborder="0" style="border: 0; width: 100%; height: 290px" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15815.065348632841!2d114.001605!3d-7.7082043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x278e73cbc305ac69!2sBAPENDA%20KABUPATEN%20SITUBONDO!5e0!3m2!1sid!2ssg!4v1634538189008!5m2!1sid!2ssg" frameborder="0" style="border: 0; width: 100%; height: 290px" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -425,7 +427,7 @@
     <div class="footer-bot">
       <div class="copyright">
         &copy; Copyright 2022
-        <strong><span>Bapenda Situbondo</span></strong> All Rights
+        <strong><span>BAPENDA Situbondo</span></strong> All Rights
         Reserved.
       </div>
     </div>

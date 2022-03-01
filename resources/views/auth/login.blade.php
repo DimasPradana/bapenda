@@ -82,10 +82,10 @@
         <!--===============================================================================================-->	
         <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
         <!--===============================================================================================-->
-        <link rel="stylesheet" href="{{asset('LoginAssets/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/LoginAssets/font-awesome-4.7.0/font-awesome.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" href="{{asset('LoginAssets/css/util.css')}}">
-        <link rel="stylesheet" href="{{asset('LoginAssets/css/main.css')}}">
+        <link rel="stylesheet" href="{{asset('public/LoginAssets/css/util.css')}}">
+        <link rel="stylesheet" href="{{asset('public/LoginAssets/css/main.css')}}">
         <!--===============================================================================================-->
     </head>
     <body>
@@ -93,7 +93,7 @@
         <div class="limiter">
             <div class="container-login100">
                 <div class="wrap-login100">
-                    <div class="login100-form-title" style="background-image: url({{asset('LoginAssets/login.jpg')}});">
+                    <div class="login100-form-title" style="background-image: url({{asset('public/LoginAssets/login.jpg')}});">
                         <span class="login100-form-title-1">
                             Sign In
                         </span>

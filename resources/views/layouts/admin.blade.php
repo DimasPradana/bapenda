@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="{{asset('ElaAdmin/css/cs-skin-elastic.css')}}">
-    <link rel="stylesheet" href="{{asset('ElaAdmin/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('public/ElaAdmin/css/cs-skin-elastic.css')}}">
+    <link rel="stylesheet" href="{{asset('public/ElaAdmin/css/style.css')}}">
     
     @yield('css')
 
@@ -65,9 +65,9 @@
             <header id="header" class="header">
                 <div class="top-left">
                     <div class="navbar-header">
-                        {{-- <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('ElaAdmin/images/logo.png')}}" alt="Logo"></a> --}}
+                        {{-- <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('public/ElaAdmin/images/logo.png')}}" alt="Logo"></a> --}}
                         <a class="navbar-brand text-success" href="{{url('admin/dashboard')}}" > <i class="fa fa-user-circle-o" style="font-size:34px"></i>  <span class="font-weight-bold " style="font-size:26px">Administrator</span></a>
-                        <a class="navbar-brand hidden " href="{{url('/')}}"><img src="{{asset('ElaAdmin/images/logo2.png')}}" alt="Logo"></a>
+                        <a class="navbar-brand hidden " href="{{url('/')}}"><img src="{{asset('public/ElaAdmin/images/logo2.png')}}" alt="Logo"></a>
                         <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div class="header-menu">
                         <div class="user-area dropdown float-right">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="user-avatar rounded-circle" src="{{asset('ElaAdmin/images/admin.jpg')}}" alt="User Avatar">
+                                <img class="user-avatar rounded-circle" src="{{asset('public/ElaAdmin/images/admin.jpg')}}" alt="User Avatar">
                             </a>
 
                             <div class="user-menu dropdown-menu">
@@ -208,7 +208,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js"></script>
-    <script src="{{asset('ElaAdmin/js/main.js')}}"></script>
+    <script src="{{asset('public/ElaAdmin/js/main.js')}}"></script>
 
 
 
