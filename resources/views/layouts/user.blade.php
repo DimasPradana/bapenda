@@ -66,7 +66,7 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h3>Selamat datang di</h3>
           <h1>
-            Website BAPENDA<br />
+            Website Badan Pendapatan Daerah<br />
             Kabupaten Situbondo
           </h1>
 
